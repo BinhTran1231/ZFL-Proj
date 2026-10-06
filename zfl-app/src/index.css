@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-han: "Noto Serif TC", "Songti TC", "PMingLiU", "Microsoft JhengHei", serif;
+  --font-ui: "Inter", system-ui, sans-serif;
+  --color-paper: #f6f0e4;
+  --color-paper-2: #efe6d3;
+  --color-ink: #1d1a16;
+  --color-ink-2: #5b5246;
+  --color-seal: #b3261e;
+  --color-jade: #2f6b57;
+}
+
+body {
+  font-family: var(--font-ui);
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+ruby { ruby-position: over; }
+rt { font-family: var(--font-ui); }
